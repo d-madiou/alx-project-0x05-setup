@@ -14,9 +14,9 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["../alx-project-0x013/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"]
+  "include": ["../alx-project-0x013/next-env.d.ts", "../alx-project-0x013/**/*.ts", "../alx-project-0x013/**/*.tsx"],
+  "exclude": ["../alx-project-0x013/node_modules"]
 }
